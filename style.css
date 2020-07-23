@@ -81,6 +81,11 @@ h1.lessons {
 		padding: 30vh 15px;
 	}
 }
+@media (max-width: 400px) {
+	h1 {
+		padding: 20vh 5px;
+	}
+}
 
 
 
@@ -218,6 +223,11 @@ h3 {
 		width: 40%;
 	}
 }
+@media (max-width: 400px) {
+	#heading {
+		line-height: 100px;
+	}
+}
 
 /*Carousel*/
 .testimonials_track {
@@ -276,6 +286,11 @@ h2.question {
 	color: #3F3F44;
 	font-weight: bold;
 }
+@media (max-width: 400px) {
+	h2.question {
+		line-height: 50px;
+	}
+}
 
 
 /* Contact Us Page */
@@ -290,4 +305,9 @@ iframe {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+@media (max-width: 400px) {
+	iframe {
+		max-width: 100%;
+	}
 }
