@@ -76,11 +76,23 @@ h1 {
 h1.lessons {
 	padding: 15vh;
 }
+h1.contact {
+	padding: 15vh;
+}
 @media (max-width: 550px) {
 	h1 {
 		padding: 30vh 15px;
 	}
 }
+@media (max-width: 400px) {
+	h1.lessons {
+		padding: 15vh 0;
+	}
+	h1.contact {
+		padding: 15vh 0;
+	}
+}
+
 
 
 
@@ -218,6 +230,11 @@ h3 {
 		width: 40%;
 	}
 }
+@media (max-width: 400px) {
+	#heading {
+		line-height: 50px;
+	}
+}
 
 /*Carousel*/
 .testimonials_track {
@@ -276,6 +293,11 @@ h2.question {
 	color: #3F3F44;
 	font-weight: bold;
 }
+@media (max-width: 400px) {
+	h2.question {
+		line-height: 50px;
+	}
+}
 
 
 /* Contact Us Page */
@@ -283,11 +305,13 @@ h2.question {
 	line-height: 35px;
 	background-color: #F7F7F7;
 	padding: 25px;
-	margin: 0 10px;
+	margin: 10px 10px;
 	font-size: 13pt;
 }
 iframe {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 100%;
 }
+
