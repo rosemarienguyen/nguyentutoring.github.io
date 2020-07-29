@@ -32,6 +32,33 @@
 	</header>
 	
 	<body>
+
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v7.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="117682216702157"
+  theme_color="#67b868"
+  logged_in_greeting="Hey there! Do you have any questions?"
+  logged_out_greeting="Hey there! Do you have any questions?">
+      </div>
 		<div id="main">
 			<div class="title" id="top">
 				<h1>Nguyen Tutoring</h1>
@@ -41,7 +68,7 @@
 				<div class="divider" id="div1">
 					<div class="circle"><img class="icon" src="info.png"></div>
 					<h4>Instant Feedback</h4>
-					<p>Track your immediate progress every week with detailed updates, session summaries, and proctored exams.</p>
+					<p>Track immediate progress every week with detailed updates, session summaries, and proctored exams.</p>
 				</div>
 				<div class="divider" id="div1">
 					<div class="circle"><img class="icon" src="info2.png"></div>
@@ -50,7 +77,7 @@
 				</div>
 				<div class="divider" id="div1">
 					<div class="circle"><img class="icon" src="info3.png"></div>
-					<h4>Lasting Mentorship</h4>
+					<h4>Lifelong Mentorship</h4>
 					<p>Keep in touch with us for advice on how to be competitive for top schools and scholarships.</p>
 				</div>
 			</div>
@@ -121,7 +148,7 @@ We value all our students regardless of race, ethnicity, nationality, religion, 
 			
 			<div id="background">
 				<p id="heading">Still Curious?</p>
-				<p>We get that only some students can afford tutoring with us. In order for you to feel confident that we are the best tutors you can get with your money, please feel free to take your time researching our qualifications. Our full resumes, background checks, work experiences, references, and testimonials are available upon request. If you would like any additional information or have any questions, email us and we will happily provide them to you at info@nguyentutors.com.
+				<p>We get that only some students can afford our services. In order for you to feel confident that we are the best tutors you can get with your money, please feel free to take your time researching us. Our full resumes, background checks, work experiences, references, and score reports are available upon request. If you would like any additional information or have any questions, email us and we will happily provide them to you at info@nguyentutors.com.
 				
 			</div>
 			
