@@ -70,7 +70,7 @@ h1 {
 	color: #DDFFCA;
 	font-size: 80px;
 	text-align: center;
-	padding: 35vh 15px;
+	padding: 30vh 15px;
 	font-family: 'Roboto', sans-serif;
 }
 h1.lessons {
@@ -151,6 +151,10 @@ h4 {
 }
 
 
+/* BUTTON CENTER */
+.center {
+  
+}
 
 /* Home Page */
 h2 {
