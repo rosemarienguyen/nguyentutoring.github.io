@@ -70,7 +70,7 @@ h1 {
 	color: #DDFFCA;
 	font-size: 80px;
 	text-align: center;
-	padding: 35vh 15px;
+	padding: 25vh 15px;
 	font-family: 'Roboto', sans-serif;
 }
 h1.lessons {
@@ -104,6 +104,11 @@ h1.contact {
 	font-size: 16px;
 	cursor: pointer;
 	border-radius: 5px;
+
+	/* Center Button */
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
 }
 
 .btn:hover {
@@ -329,7 +334,7 @@ h2.question {
 
 /* Contact Us Page */
 #contact {
-	line-height: 35px;
+	line-height: 1000px;
 	background-color: #F7F7F7;
 	padding: 25px;
 	margin: 10px 10px;
