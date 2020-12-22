@@ -10,75 +10,78 @@
 </script>
 
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<title> Contact Us </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" href="logo.ico">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	</head>
 
-<head>
-	<link rel="stylesheet" href="style.css">
-	<link rel="icon" href="logo.ico">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-</head>
-
-<header>
-	<nav id="nav-bar">
-		<a href="./index.html" class="nav" id="corner">Nguyen Tutoring</a>
-		<div id="right-align">
-			<a href="./index.html" class="nav-link">Home</a>
-			<a href="./About.html" class="nav-link"><b>About Us</b></a>
-			<a href="./PrivateLessons.html" class="nav-link">Private Lessons</a>
-			<a href="./Contact.html" class="nav-link"><b>Contact</b></a>
-		</div>
-	</nav>
-</header>
+	<header>
+		<nav id="nav-bar">
+			<a href="./index.html" class="nav" id="corner">Nguyen Tutoring</a>
+			<div id="right-align">
+				<a href="./index.html" class="nav-link">Home</a>
+				<a href="./About.html" class="nav-link"><b>About Us</b></a>
+				<a href="./PrivateLessons.html" class="nav-link">Private Lessons</a>
+				<a href="./Contact.html" class="nav-link"><b>Contact</b></a>
+			</div>
+		</nav>
+	</header>
 
 
 
-<body>
+	<body>
 
-	<!-- Load Facebook SDK for JavaScript -->
-	<div id="fb-root"></div>
-	<script>
-		window.fbAsyncInit = function () {
-			FB.init({
-				xfbml: true,
-				version: 'v7.0'
-			});
-		};
+		<!-- Load Facebook SDK for JavaScript -->
+		<div id="fb-root"></div>
+		<script>
+			window.fbAsyncInit = function () {
+				FB.init({
+					xfbml: true,
+					version: 'v7.0'
+				});
+			};
 
-		(function (d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
+			(function (d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 
-	<!-- Your Chat Plugin code -->
-	<div class="fb-customerchat" attribution=setup_tool page_id="117682216702157" theme_color="#67b868"
-		logged_in_greeting="Hey there! Do you have any questions?"
-		logged_out_greeting="Hey there! Do you have any questions?">
-	</div>
-
-	<div id="main">
-		<div class="lessons" id="top">
-			<h1 class="contact">Contact Us</h1>
+		<!-- Your Chat Plugin code -->
+		<div class="fb-customerchat" attribution=setup_tool page_id="117682216702157" theme_color="#67b868"
+			logged_in_greeting="Hey there! Do you have any questions?"
+			logged_out_greeting="Hey there! Do you have any questions?">
 		</div>
 
-		<div id="contact">
+		<div id="main">
+			<div class="lessons" id="top">
+				<h1 class="contact">Contact Us</h1>
+			</div>
 
-			</p>
-			<p>
+			<div id="contact">
+
+				</p>
+				<p>
 				
-					<h2>🏷️ Enter code 2HOURS below for 2 hours of free tutoring </h2>
-					<iframe
-					src="https://docs.google.com/forms/d/e/1FAIpQLSfstxECxA4NwIckCz7t2iDga21ef20OHHuQ9nuaWzJLAkCpPA/viewform?embedded=true"
-					width="640" height="1695" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-			</p>
+						<h2>🏷️ Enter code 2HOURS below for 2 hours of free tutoring </h2>
+						<iframe
+						src="https://docs.google.com/forms/d/e/1FAIpQLSfstxECxA4NwIckCz7t2iDga21ef20OHHuQ9nuaWzJLAkCpPA/viewform?embedded=true"
+						width="640" height="1695" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+				</p>
+			</div>
+			
+			<div id="bottom"> 
+			</div>
+			
 		</div>
-		<div id="bottom"> </div>
-	</div>
-</body>
+	</body>
 
 </html>
